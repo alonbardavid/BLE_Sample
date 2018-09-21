@@ -1,5 +1,5 @@
 import BleManager from 'react-native-ble-manager';
-import {NativeEventEmitter, NativeModules} from "react-native";
+import {NativeEventEmitter, NativeModules, PermissionsAndroid, Platform} from "react-native";
 import {observable} from 'mobx';
 
 const BleManagerModule = NativeModules.BleManager;
@@ -36,6 +36,21 @@ export class BleService {
     this.deviceListeners.push(bleManagerEmitter.addListener('BleManagerDidUpdateValueForCharacteristic',
       this.handleUpdateValueForCharacteristic ));
     this.deviceListeners.push(bleManagerEmitter.addListener('BleManagerStopScan', this.handleStopScan ));
+    if (Platform.OS === 'android' && Platform.Version >= 23) {
+      PermissionsAndroid.check(PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION).then((result) => {
+        if (result) {
+          console.log("Permission is OK");
+        } else {
+          PermissionsAndroid.requestPermission(PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION).then((result) => {
+            if (result) {
+              console.log("User accept");
+            } else {
+              console.log("User refuse");
+            }
+          });
+        }
+      });
+    }
     BleManager.start().then(()=>{
       BleManager.getConnectedPeripherals().then((res)=>{
         console.log("got connected peripherals",res);

@@ -3,7 +3,7 @@ import {View,StyleSheet,Button,Text} from 'react-native';
 import {BleService} from './ble';
 import {Storage} from "./storage";
 import {observer} from 'mobx-react/native';
-
+import Avatar from './avatar';
 @observer
 export class App extends React.Component {
 
@@ -39,9 +39,11 @@ export class App extends React.Component {
   render(){
     const {rowCount,rows} = this.state;
     const {state,lastError,currentAngle,calibration} = this.ble;
+    const frame = currentAngle? currentAngle[0] % 49 + 1: 1;
+    console.log(frame,currentAngle);
     return <View>
       <View style={[styles.row]} >
-        <Text>state: {state} | angle: {JSON.stringify(currentAngle || "")} | calibration: {calibration}</Text>
+        <Text>state: {state} | frame: {frame} | calibration: {calibration}</Text>
       </View>
       {lastError  && <View style={[styles.row]} >
         <Text>error: {lastError}</Text>
@@ -67,6 +69,9 @@ export class App extends React.Component {
           <Button title="next" onPress={this.loadRows}/>
         </View>
       </View>}
+      {<View style={styles.imageContainer} >
+        <Avatar style={styles.image}  index={frame}/>
+      </View>}
     </View>
   }
 }
@@ -84,5 +89,16 @@ const styles = StyleSheet.create({
     padding:5,
     borderColor:"black",
     borderWidth:1
+  },
+  imageContainer:{
+    flex:1,
+    marginTop:20,
+    justifyContent:"center",
+    alignItems:"center"
+  },
+  image:{
+    position:"absolute",
+    width:250,
+    height:250
   }
 });
