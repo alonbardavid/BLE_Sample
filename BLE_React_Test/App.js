@@ -21,8 +21,8 @@ export class App extends React.Component {
   connect = ()=>{
     this.ble.scan()
   }
-  calibrate = ()=>{
-    this.ble.calibrate()
+  shutdown = ()=>{
+    this.ble.shutdown()
   }
   train = ()=>{
     this.ble.startTraining();
@@ -37,10 +37,10 @@ export class App extends React.Component {
     }));
   }
   render(){
-    const {rowCount,rows} = this.state;
+    const {rowCount,rows } = this.state;
     const {state,lastError,currentAngle,calibration} = this.ble;
-    const frame = currentAngle? currentAngle[0] % 49 + 1: 1;
-    console.log(frame,currentAngle);
+    const angle = currentAngle && (currentAngle[0] + currentAngle[1] * 255);
+    const frame = angle? Math.max(2,Math.min(49,Math.floor(angle / 1000 + 1))): 1;
     return <View>
       <View style={[styles.row]} >
         <Text>state: {state} | frame: {frame} | calibration: {calibration}</Text>
@@ -51,7 +51,7 @@ export class App extends React.Component {
       <View style={[styles.row]} >
         <Button title="connect" onPress={this.connect} />
         <Button title="train"   onPress={this.train} />
-        <Button title="calibrate"   onPress={this.calibrate} />
+        <Button title="shutdown"   onPress={this.shutdown} />
       </View>
       <View style={[styles.row]} >
         <Text>rowCount: {rowCount}</Text>

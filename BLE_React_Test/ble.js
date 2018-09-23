@@ -11,6 +11,9 @@ const CALIBRATION_SERVICE = "aab0";
 const START_CALIBRATION_CHARECTERISTIC = "aab1";
 const START_CALIBRATION_COMMAND = [1];
 const CALIBRATION_ACK_CHARECTERISTIC = "aab2";
+const POWER_SERVICE = "aaa0";
+const HAL_CONTROL_CHARECTERISTIC = "aaa4";
+const SHUTDOWN_COMMANS = [3];
 
 export class BleService {
 
@@ -131,6 +134,11 @@ export class BleService {
       }).catch(e=>console.log(e))
     });
 
+  }
+  shutdown() {
+    this.validateServices().then(()=>{
+      BleManager.write(this.connectedDevice.id,POWER_SERVICE,HAL_CONTROL_CHARECTERISTIC,SHUTDOWN_COMMANS).then(x=>console.log("shutdown",x))
+    })
   }
   validateServices(){
     if (!this.connectedDevice){
