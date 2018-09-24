@@ -1,6 +1,6 @@
 import BleManager from 'react-native-ble-manager';
 import {NativeEventEmitter, NativeModules, PermissionsAndroid, Platform} from "react-native";
-import {observable} from 'mobx';
+import {observable,computed} from 'mobx';
 
 const BleManagerModule = NativeModules.BleManager;
 const bleManagerEmitter = new NativeEventEmitter(BleManagerModule);
@@ -14,6 +14,8 @@ const CALIBRATION_ACK_CHARECTERISTIC = "aab2";
 const POWER_SERVICE = "aaa0";
 const HAL_CONTROL_CHARECTERISTIC = "aaa4";
 const SHUTDOWN_COMMANS = [3];
+const TEST_SENSOR_CHARECTERISTIC ="aad1";
+const TEST_SERVICE = "aad0";
 
 export class BleService {
 
@@ -29,7 +31,9 @@ export class BleService {
   @observable
   currentAngle = null;
   @observable
-  calibration = "no"
+  calibration = "no";
+
+  timings = {};
 
   constructor(storage){
     this.deviceListeners.push(bleManagerEmitter.addListener('BleManagerDiscoverPeripheral',
@@ -65,6 +69,15 @@ export class BleService {
     });
     this.storage = storage;
   }
+
+  addTiming(){
+    const now = Math.floor(new Date().getTime() / 1000);
+    this.timings[now] = (this.timings[now] || 0) + 1;
+  }
+  getAverageCount() {
+    const keys = Object.keys(this.timings);
+    return keys.map(i=>this.timings[i]).reduce((sum,i)=>sum+i,0) / keys.length;
+  }
   setDevice(device){
     this.connectedDevice = device;
     this.state = "connected";
@@ -81,8 +94,11 @@ export class BleService {
     if (isCharacterstic(data.characteristic,SMOOTH_ANGLE_CHARECTERISTIC)) {
       this.storage.insert(data);
       this.currentAngle = data.value;
+      this.addTiming();
     } else if (isCharacterstic(data.characteristic,CALIBRATION_ACK_CHARECTERISTIC)) {
 
+    } else if (isCharacterstic(data.characteristic,TEST_SENSOR_CHARECTERISTIC)){
+      this.addTiming();
     }
   }
   handleStopScan = ()=>{
@@ -155,10 +171,20 @@ export class BleService {
     })
   }
   startTraining(){
+    this.timings = {};
     console.log("training started")
     this.validateServices().then(()=>{
       BleManager.startNotification(this.connectedDevice.id, TRAIN_SERVICE, SMOOTH_ANGLE_CHARECTERISTIC).then(()=>{
-        console.log('Started notification on ' + this.connectedDevice.id);
+        console.log('Started training notification on ' + this.connectedDevice.id);
+      })
+    })
+  }
+  startTest(){
+    this.timings = {};
+    console.log("test started")
+    this.validateServices().then(()=>{
+      BleManager.startNotification(this.connectedDevice.id, TEST_SERVICE, TEST_SENSOR_CHARECTERISTIC).then(()=>{
+        console.log('Started test notification on ' + this.connectedDevice.id);
       })
     })
   }

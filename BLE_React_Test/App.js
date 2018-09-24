@@ -16,7 +16,8 @@ export class App extends React.Component {
   state = {
     rowCount:null,
     rowIndex:0,
-    rows:[]
+    rows:[],
+    averageCount:null
   }
   connect = ()=>{
     this.ble.scan()
@@ -27,6 +28,9 @@ export class App extends React.Component {
   train = ()=>{
     this.ble.startTraining();
   }
+  test = ()=>{
+    this.ble.startTest();
+  }
   updateCount = ()=>{
     this.storage.getCount().then(rowCount=>this.setState({rowCount}));
   }
@@ -36,8 +40,14 @@ export class App extends React.Component {
       rowIndex:this.state.rowIndex + 5
     }));
   }
+  refreshAverageCount= ()=>{
+    const averageCount = this.ble.getAverageCount();
+    this.setState({
+      averageCount
+    })
+  }
   render(){
-    const {rowCount,rows } = this.state;
+    const {rowCount,rows ,averageCount} = this.state;
     const {state,lastError,currentAngle,calibration} = this.ble;
     const angle = currentAngle && (currentAngle[0] + currentAngle[1] * 255);
     const frame = angle? Math.max(2,Math.min(49,Math.floor(angle / 1000 + 1))): 1;
@@ -51,13 +61,16 @@ export class App extends React.Component {
       <View style={[styles.row]} >
         <Button title="connect" onPress={this.connect} />
         <Button title="train"   onPress={this.train} />
+        <Button title="test"   onPress={this.test} />
         <Button title="shutdown"   onPress={this.shutdown} />
       </View>
       <View style={[styles.row]} >
         <Text>rowCount: {rowCount}</Text>
+        <Text>average timings: {averageCount}</Text>
       </View>
       <View style={[styles.row]} >
         <Button title="update count" onPress={this.updateCount} />
+        <Button title="update timing" onPress={this.refreshAverageCount} />
         <Button title="load rows" onPress={this.loadRows} />
       </View>
       {rows.length > 0 && <View>
@@ -91,8 +104,7 @@ const styles = StyleSheet.create({
     borderWidth:1
   },
   imageContainer:{
-    flex:1,
-    marginTop:20,
+    marginTop:150,
     justifyContent:"center",
     alignItems:"center"
   },
