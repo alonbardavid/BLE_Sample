@@ -8,16 +8,22 @@ export class Storage {
   }
 
   onDatabaseConnected = ()=>{
-
+      this.db.transaction(function(tx) {
+          console.log('creating data table');
+          tx.executeSql('CREATE TABLE IF NOT EXISTS sensor_values (date,peripheral,characteristic,value)');
+      }, function(error) {
+          console.log('Transaction ERROR: ' + error.message);
+      }, function(a) {
+          console.log('created database OK',a);
+      });
   }
-  onDatabaseError = ()=>{
-
+  onDatabaseError = (e)=>{
+    console.log("failed to open database",e);
   }
 
   insert(data){
     this.db.transaction(function(tx) {
       console.log('Received data from ' + data.peripheral + ' characteristic ' + data.characteristic, data.value);
-      tx.executeSql('CREATE TABLE IF NOT EXISTS sensor_values (date,peripheral,characteristic,value)');
       tx.executeSql('INSERT INTO sensor_values VALUES (?1,?2,?3,?4)',
         [new Date().toISOString(),data.peripheral,data.characteristic,data.value.toString()]);
     }, function(error) {

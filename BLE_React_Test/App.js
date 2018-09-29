@@ -3,6 +3,7 @@ import {View,StyleSheet,Button,Text} from 'react-native';
 import {BleService} from './ble';
 import {Storage} from "./storage";
 import {observer} from 'mobx-react/native';
+import Avatar from './avatar';
 
 @observer
 export class App extends React.Component {
@@ -49,8 +50,7 @@ export class App extends React.Component {
   render(){
     const {rowCount,rows ,averageCount} = this.state;
     const {state,lastError,currentAngle,calibration} = this.ble;
-    const angle = currentAngle && (currentAngle[0] + currentAngle[1] * 255);
-    const frame = angle? Math.max(2,Math.min(49,Math.floor(angle / 1000 + 1))): 1;
+    const frame = currentAngle?(currentAngle[0] % 49 + 1):0;
     return <View>
       <View style={[styles.row]} >
         <Text>state: {state} | frame: {frame} | calibration: {calibration}</Text>
@@ -82,6 +82,10 @@ export class App extends React.Component {
           <Button title="next" onPress={this.loadRows}/>
         </View>
       </View>}
+      {<View style={styles.imageContainer} >
+        <Avatar style={styles.image}  index={frame}/>
+      </View>}
+
     </View>
   }
 }

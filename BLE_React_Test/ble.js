@@ -199,5 +199,5 @@ export class BleService {
 }
 
 function isCharacterstic(value,compareTo){
-  return value.indexOf(compareTo) === 0 || value.indexOf(`0000${compareTo}`) === 0;
+  return value.toLowerCase().indexOf(compareTo) === 0 || value.toLowerCase().indexOf(`0000${compareTo}`) === 0;
 }
