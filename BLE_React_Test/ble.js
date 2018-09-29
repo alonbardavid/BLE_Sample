@@ -123,12 +123,13 @@ export class BleService {
   }
   calibrate() {
     console.log("calibrate started");
-    this.validateServices().then(()=> {
+    this.validateServices().then((info)=> {
       BleManager.startNotification(this.connectedDevice.id, CALIBRATION_SERVICE, CALIBRATION_ACK_CHARECTERISTIC).then(()=>{
         console.log('Started calib ack notification on ' + this.connectedDevice.id);
       });
+      const cha = this.getCharacteristic(info,START_CALIBRATION_COMMAND);
       BleManager.write(this.connectedDevice.id,
-        CALIBRATION_SERVICE, START_CALIBRATION_CHARECTERISTIC,START_CALIBRATION_COMMAND).then(()=>{
+        cha.service, cha.characteristic,START_CALIBRATION_COMMAND).then(()=>{
         console.log('Started calibration on ' + this.connectedDevice.id);
         this.calibration = "starting";
       }).catch(e=>console.log(e))
@@ -136,8 +137,9 @@ export class BleService {
 
   }
   shutdown() {
-    this.validateServices().then(()=>{
-      BleManager.write(this.connectedDevice.id,POWER_SERVICE,HAL_CONTROL_CHARECTERISTIC,SHUTDOWN_COMMANS).then(x=>console.log("shutdown",x))
+    this.validateServices().then((info)=>{
+        const cha = this.getCharacteristic(info,HAL_CONTROL_CHARECTERISTIC);
+        BleManager.write(this.connectedDevice.id,cha.service, cha.characteristic,SHUTDOWN_COMMANS).then(x=>console.log("shutdown",x))
     })
   }
   validateServices(){
@@ -146,18 +148,23 @@ export class BleService {
     }
     return BleManager.retrieveServices(this.connectedDevice.id).then((info)=> {
       console.log("retrieved services",info);
-      if (info.services.findIndex(s => s.uuid === TRAIN_SERVICE) < 0 ||
-        info.characteristics.findIndex(c => c.characteristic == SMOOTH_ANGLE_CHARECTERISTIC) < 0 ||
-        info.characteristics.findIndex(c => c.characteristic == CALIBRATION_ACK_CHARECTERISTIC) < 0) {
+      if (!this.getCharacteristic(info,SMOOTH_ANGLE_CHARECTERISTIC) ||
+          !this.getCharacteristic(info,CALIBRATION_ACK_CHARECTERISTIC)) {
         console.log("failed to validate services", info);
         throw new Error("could not find service/characteristic on device");
       }
+      return info;
     })
+  }
+  getCharacteristic(info,characterId){
+    const index =info.characteristics.findIndex(c=>c.characteristic.toLowerCase() === characterId);
+    return index >=0? info.characteristics[index]: null;
   }
   startTraining(){
     console.log("training started")
-    this.validateServices().then(()=>{
-      BleManager.startNotification(this.connectedDevice.id, TRAIN_SERVICE, SMOOTH_ANGLE_CHARECTERISTIC).then(()=>{
+    this.validateServices().then((info)=>{
+        const cha = this.getCharacteristic(info,SMOOTH_ANGLE_CHARECTERISTIC);
+        BleManager.startNotification(this.connectedDevice.id, cha.service, cha.characteristic).then(()=>{
         console.log('Started notification on ' + this.connectedDevice.id);
       })
     })
