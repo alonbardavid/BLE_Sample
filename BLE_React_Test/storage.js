@@ -21,16 +21,32 @@ export class Storage {
     console.log("failed to open database",e);
   }
 
+  cache = [];
   insert(data){
-    this.db.transaction(function(tx) {
-      console.log('Received data from ' + data.peripheral + ' characteristic ' + data.characteristic, data.value);
-      tx.executeSql('INSERT INTO sensor_values VALUES (?1,?2,?3,?4)',
-        [new Date().toISOString(),data.peripheral,data.characteristic,data.value.toString()]);
-    }, function(error) {
-      console.log('Transaction ERROR: ' + error.message);
-    }, function() {
-      console.log('Populated database OK');
-    });
+    if (this.cache.length < 19){
+      this.cache.push(data);
+    } else {
+        this.cache.push(data);
+        const params = [];
+        for (let i=0 ;i < data.length; i++) {
+            let d = this.cache[i];
+            params.push(new Date().toISOString());
+            params.push(d.peripheral);
+            params.push(d.characteristic);
+            params.push(d.value.toString());
+        }
+        this.cache = [];
+        this.db.transaction(function (tx) {
+            //console.log('Received data from ' + data.peripheral + ' characteristic ' + data.characteristic, data.value);
+            tx.executeSql(`INSERT INTO sensor_values VALUES (?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?),(?,?,?,?)`,
+                params);
+        }, function (error) {
+            console.log('Transaction ERROR: ' + error.message);
+        }, function () {
+            //console.log('Populated database OK');
+
+        });
+    }
   }
 
   getData(page=0,perPage=5){

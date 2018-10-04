@@ -2,116 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee43cf3-696e-41f9-b7d8-638c3e8a887f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi0.imageset/green_avi0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi1.imageset/green_avi1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi10.imageset/green_avi10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi11.imageset/green_avi11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi12.imageset/green_avi12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi13.imageset/green_avi13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi14.imageset/green_avi14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi15.imageset/green_avi15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi16.imageset/green_avi16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi17.imageset/green_avi17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi18.imageset/green_avi18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi19.imageset/green_avi19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi2.imageset/green_avi2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi20.imageset/green_avi20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi21.imageset/green_avi21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi22.imageset/green_avi22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi23.imageset/green_avi23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi24.imageset/green_avi24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi25.imageset/green_avi25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi26.imageset/green_avi26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi27.imageset/green_avi27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi28.imageset/green_avi28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi29.imageset/green_avi29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi3.imageset/green_avi3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi30.imageset/green_avi30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi31.imageset/green_avi31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi32.imageset/green_avi32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi33.imageset/green_avi33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi34.imageset/green_avi34.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi35.imageset/green_avi35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi36.imageset/green_avi36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi37.imageset/green_avi37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi38.imageset/green_avi38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi39.imageset/green_avi39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi4.imageset/green_avi4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi40.imageset/green_avi40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi41.imageset/green_avi41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi42.imageset/green_avi42.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi43.imageset/green_avi43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi44.imageset/green_avi44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi45.imageset/green_avi45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi46.imageset/green_avi46.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi47.imageset/green_avi47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi48.imageset/green_avi48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi49.imageset/green_avi49.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi5.imageset/green_avi5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi50.imageset/green_avi50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi6.imageset/green_avi6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi7.imageset/green_avi7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi8.imageset/green_avi8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi9.imageset/green_avi9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/avatar.ios.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi0.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi1.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi10.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi11.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi12.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi13.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi14.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi15.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi16.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi17.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi18.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi19.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi2.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi20.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi21.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi22.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi23.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi24.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi25.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi26.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi27.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi28.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi29.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi3.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi30.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi31.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi32.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi33.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi34.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi35.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi36.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi37.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi38.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi39.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi4.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi40.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi41.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi42.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi43.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi44.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi45.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi46.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi47.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi48.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi49.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi5.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi50.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi6.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi7.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi8.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/avatar/green_avi9.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/BLE_React_Test/avatar.js" afterPath="$PROJECT_DIR$/BLE_React_Test/avatar.android.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BLE_React_Test/App.js" afterPath="$PROJECT_DIR$/BLE_React_Test/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BLE_React_Test/ble.js" afterPath="$PROJECT_DIR$/BLE_React_Test/ble.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/Contents.json" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test/Images.xcassets/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test.xcodeproj/xcshareddata/xcschemes/BLE_React_Test.xcscheme" afterPath="$PROJECT_DIR$/BLE_React_Test/ios/BLE_React_Test.xcodeproj/xcshareddata/xcschemes/BLE_React_Test.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BLE_React_Test/storage.js" afterPath="$PROJECT_DIR$/BLE_React_Test/storage.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -125,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BLE_React_Test/app.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ble.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ble.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BLE_React_Test/ble.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-668">
-              <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="14" />
+            <state relative-caret-position="302">
+              <caret line="97" column="85" lean-forward="true" selection-start-line="97" selection-start-column="85" selection-end-line="97" selection-end-column="85" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -151,17 +44,17 @@
       <file leaf-file-name="storage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BLE_React_Test/storage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="162">
+              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BLE_React_Test/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="188">
               <caret line="52" column="59" lean-forward="false" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -174,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/BLE_React_Test/avatar.ios.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -195,10 +88,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BLE_React_Test/storage.js" />
-        <option value="$PROJECT_DIR$/BLE_React_Test/ble.js" />
-        <option value="$PROJECT_DIR$/BLE_React_Test/avatar.ios.js" />
         <option value="$PROJECT_DIR$/BLE_React_Test/App.js" />
+        <option value="$PROJECT_DIR$/BLE_React_Test/storage.js" />
+        <option value="$PROJECT_DIR$/BLE_React_Test/avatar.ios.js" />
+        <option value="$PROJECT_DIR$/BLE_React_Test/ble.js" />
       </list>
     </option>
   </component>
@@ -233,6 +126,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,7 +200,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,32 +235,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538213437951</updated>
-      <workItem from="1538213440992" duration="4829000" />
+      <workItem from="1538213440992" duration="5408000" />
+      <workItem from="1538683420221" duration="2593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4829000" />
+    <option name="totallyTimeSpent" value="8001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -400,29 +293,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BLE_React_Test/avatar.android.js">
+    <entry file="file://$PROJECT_DIR$/BLE_React_Test/storage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BLE_React_Test/avatar.ios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BLE_React_Test/ble.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-668">
+        <state relative-caret-position="435">
           <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="14" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
@@ -430,20 +311,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BLE_React_Test/storage.js">
+    <entry file="file://$PROJECT_DIR$/BLE_React_Test/avatar.ios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BLE_React_Test/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="780">
           <caret line="52" column="59" lean-forward="false" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLE_React_Test/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLE_React_Test/avatar.android.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLE_React_Test/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="52" column="59" lean-forward="false" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLE_React_Test/avatar.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLE_React_Test/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLE_React_Test/ble.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="97" column="85" lean-forward="true" selection-start-line="97" selection-start-column="85" selection-end-line="97" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>

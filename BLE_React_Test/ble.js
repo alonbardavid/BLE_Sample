@@ -90,11 +90,11 @@ export class BleService {
 
   }
   handleUpdateValueForCharacteristic = (data)=>{
-    console.log('Received data from ' + data.peripheral + ' characteristic ' + data.characteristic, data.value);
+    //console.log('Received data from ' + data.peripheral + ' characteristic ' + data.characteristic, data.value);
     if (isCharacterstic(data.characteristic,SMOOTH_ANGLE_CHARECTERISTIC)) {
       this.storage.insert(data);
-      this.currentAngle = data.value;
-      this.addTiming();
+      //this.currentAngle = data.value;
+      //this.addTiming();
     } else if (isCharacterstic(data.characteristic,CALIBRATION_ACK_CHARECTERISTIC)) {
 
     } else if (isCharacterstic(data.characteristic,TEST_SENSOR_CHARECTERISTIC)){
